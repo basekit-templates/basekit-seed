@@ -1,0 +1,1 @@
+basekit-seed — the seed for BaseKit themes.

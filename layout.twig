@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html class="no-js" lang="{{ page.seoLang }}" prefix="og: http://ogp.me/ns#">
+
+	{% include "includes/head.twig" %}
+
+	<body class="{{ page.backgroundClass }} {{ site.colorSwatch }}">
+
+		{% include "includes/header.twig" %}
+		
+		{% block content %}
+		{% endblock %}
+
+		{% include "includes/footer.twig" %}
+
+		{% include basekit.bodyScript %}
+
+		<script src="{{asset('js/theme.js')}}"></script>
+
+		<script type="text/javascript">
+			!function() {
+				function supportsSVG() {
+					return !!document.createElementNS && !! document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect
+				}
+				if (supportsSVG()) document.documentElement.className += ' svg'
+			}()
+		</script>
+
+	</body>
+
+</html>

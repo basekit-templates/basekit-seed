@@ -1,0 +1,48 @@
+/* Default E-Commerce products list by BaseKit
+========================================================================== */
+
+// Product list container
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+// Product items in container
+.product-item {
+    position: relative;
+    width: 32%;
+    margin-bottom: 2%;
+    // Display 100% at mobile
+    @media @mobile {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+}
+
+/* E-Commerce products list
+========================================================================== */
+
+.ecomproductslist {
+	.listing-header {
+		.listing-title {}
+		.product-filters {}
+		.listing-order {}
+	}
+	.listing-body {
+		.product-list {}
+		.product-item {}
+		.product-item-article {}
+		.product-item-image {}
+		.image {}
+		.product-item-details {}
+		.product-item-title {}
+		.product-item-price {}
+	}
+	.listing-footer {
+		.listing-pagination {}
+		.pagination-list {}
+		.pagination-item {}
+		.button {}
+	}
+}

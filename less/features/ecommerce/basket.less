@@ -1,0 +1,76 @@
+/* Default E-Commerce basket by BaseKit
+========================================================================== */
+
+// Contents of basket
+.basket-body {
+    max-width: 400px;
+    @media @mobile {
+        max-width: 100%;
+    }
+}
+
+// Image & Details positioning
+.basket-item-image,
+.basket-item-details {
+    display: inline-block;
+    vertical-align: top;
+}
+
+// Basket item positioning
+.basket-item-image {
+    width: 20%;
+    margin-right: 5%;
+    @media @mobile {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+// Basket item details positioning
+.basket-item-details {
+    width: 73%;
+    @media @mobile {
+        width: 100%;
+    }
+}
+
+// Basket item name positioning
+.basket-item-name {
+    display: block;
+    max-width: 90%;
+    line-height: @font-swatch5-line-height;
+    @media @mobile {
+        width: 100%;
+    }
+}
+
+// Remove Button
+.item-remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.remove-text {
+    display: none; // Hides remove text
+}
+
+/* E-Commerce basket
+========================================================================== */
+
+.ecombasket {
+	.basket-toggle {
+		.item-count {}
+	}
+	.basket-body {
+		.basket-list {}
+		.basket-item {}
+		.basket-item-image {}
+		.image-link {}
+		.image--thumb {}
+	}
+	.basket-footer {
+		.basket-total {}
+		.total-number {}
+		.view-basket {}
+	}
+}

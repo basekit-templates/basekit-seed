@@ -1,0 +1,190 @@
+/* Globals
+========================================================================== */
+
+html {}
+
+body {}
+
+/* Typography
+-------------------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6,
+.heading--1, .heading--2, .heading--3, .heading--4, .heading--5, .heading--6 {}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.heading--1 a, .heading--2 a, .heading--3 a, .heading--4 a, .heading--5 a, .heading--6 a {}
+
+h1, .heading--1 {}
+
+h2, .heading--2 {}
+
+h3, .heading--3 {}
+
+h4, .heading--4 {}
+
+h5, .heading--5 {}
+
+h6, .heading--6 {}
+
+p, .paragraph {}
+
+span {}
+
+i, em {}
+
+b, strong {}
+
+small {}
+
+big {}
+
+hr {}
+
+blockquote, pre, code {}
+
+blockquote {
+	&:before {}
+}
+
+pre {}
+
+code {}
+
+.fa {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Links
+-------------------------------------------------------------------------- */
+
+a, a:visited {}
+
+a:hover, a:focus {}
+
+a:active {}
+
+/* Selection
+-------------------------------------------------------------------------- */
+
+::-moz-selection {}
+
+::selection {}
+
+/* Images
+-------------------------------------------------------------------------- */
+
+img {}
+
+img:hover, img:focus {}
+
+/* Lists
+-------------------------------------------------------------------------- */
+
+dl, ul, ol {}
+
+dl {}
+
+ul {}
+
+ol {}
+
+dt {}
+
+dd {}
+
+li {}
+
+/* Tables
+-------------------------------------------------------------------------- */
+
+table {}
+
+tbody {}
+
+thead {}
+
+caption {}
+
+th {}
+
+tr {}
+
+tr:nth-child(even) {}
+
+tr:nth-child(odd) {}
+
+td {}
+
+/* Forms
+-------------------------------------------------------------------------- */
+
+form {}
+
+form .form-group {
+	&:only-child,
+	&:last-child {}
+}
+
+fieldset {}
+
+legend {}
+
+label {}
+
+input[type="checkbox"],
+input[type="radio"] {}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+textarea,
+textarea.message,
+select {
+	&:focus {}
+}
+
+textarea,
+textarea.message {}
+
+select {}
+
+/* Placeholder Text
+-------------------------------------------------------------------------- */
+
+::-webkit-input-placeholder {}
+
+:-moz-placeholder {
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	opacity: 1;
+}
+
+:-ms-input-placeholder {}
+
+/* Buttons
+-------------------------------------------------------------------------- */
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	&:hover,
+	&:active {}
+}
+
+form {
+	.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+		&:hover,
+		&:active {}
+	}
+}
