@@ -1,3 +1,7 @@
+// Attention!
+// bk$.noConflict(true);
+// bk$ = $
+
 var ThemeModule = (function(){
 
 	function testRun() {
@@ -10,7 +14,7 @@ var ThemeModule = (function(){
 	
 })();
 
-$(function(){
+bk$(function(){
 
 	ThemeModule.testRun();
 
