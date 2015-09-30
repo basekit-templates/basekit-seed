@@ -4,7 +4,7 @@
 
 	{% include "includes/head.twig" %}
 
-	<body class="{{ page.backgroundClass }} {{ site.colorSwatch }}">
+	<body class="{{ page.backgroundClass }} {{ page.title|replace(' ', '-') }} {{ site.colorSwatch }}">
 
 		{% include "includes/header.twig" %}
 		
